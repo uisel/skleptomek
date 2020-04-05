@@ -1,0 +1,185 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: arial, sans-serif;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+div.web {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+/*header*/
+div.topic {
+    background-color: lightblue;
+    line-height: 50px;
+    font-size: 25px;
+}
+
+div.logo {
+    float: left;
+    width: 20%;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.fa-cookie-bite {
+    padding-right: 10px;
+}
+
+div.basket {
+    float: left;
+    width: 50%;
+    text-align: center;
+    padding: auto;
+    border-left: 2px solid red;
+    border-right: 2px solid red;
+}
+
+div.find {
+    float: left;
+    width: 30%;
+    text-align: center;
+    font-size: 17px;
+}
+
+/*koniec header*/
+
+/*menu*/
+a.menu {
+    float: left;
+    width: 25%;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: black;
+    background-color: pink;
+}
+
+a.menu:hover {
+    background-color: #FFE1BE;
+}
+
+nav.nawigacja a.active {
+    background-color: #BCE27F;
+}
+
+/*koniec menu*/
+/*główne*/
+div.wrapper {
+    background-color: #FFFFD2;
+}
+
+div.side {
+    float: left;
+    width: 15%;
+    background-color: #FFCC99;
+    margin: 20px 2.5% 0 2.5%;
+    border-radius: 5%;
+    padding: 15px 0;
+}
+
+a.kat {
+    display: block;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+a.kat:hover {
+    background-color: #FFE1BE;
+}
+
+div.side a.active {
+    background-color: #BCE44F;
+    /*    border-radius: 10%;*/
+}
+
+div.sekcja {
+    float: left;
+    width: 77.5%;
+    background-color: #FFFFD2;
+    border-radius: 5%;
+    margin: 20px 2.5% 0 0;
+}
+
+div.sekcja h1 {
+    margin: 20px 0 20px 20px;
+}
+
+div.shop {
+    margin: 2% 5% 5%;
+}
+
+div.box {
+    float: left;
+    width: 30%;
+    border: 2px solid black;
+    margin: 10px 3% 10px 0;
+    border-radius: 10%;
+    background-color: #eee;
+}
+
+div.item {
+    margin: 5%;
+    overflow: hidden;
+}
+
+div.item a {
+    text-align: center;
+    margin: auto;
+    text-decoration: none;
+    color: black;
+}
+
+div.item a img {
+    max-width: 100%;
+    border-radius: 10%
+}
+
+div.item p {
+    margin-bottom: 5%
+}
+
+div.item a.buy {
+    text-align: right;
+    float: right;
+    margin-right: 10%;
+}
+
+.fa-shopping-cart {
+    padding: 10%;
+    color: red;
+    font-size: 20px;
+}
+
+
+/*footer*/
+div.foot {
+    border-top: 2px solid black;
+    text-align: center;
+    background-color: lightblue;
+}
+
+div.info {
+    float: left;
+    width: 70%;
+    border-right: 2px solid black;
+    margin-top: 10px;
+}
+
+div.social {
+    float: left;
+    width: 30%;
+    font-size: 20px;
+    margin-top: 10px;
+    letter-spacing: 5px;
+}
